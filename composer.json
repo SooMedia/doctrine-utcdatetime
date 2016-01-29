@@ -1,0 +1,25 @@
+{
+    "name": "soomedia/doctrine-utcdatetime",
+    "description": "Doctrine2 DateTimeType that will always store your DateTime in the UTC timezone",
+    "keywords": [
+        "doctrine2",
+        "datetime",
+        "utc"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Willem Oostendorp",
+            "email": "willem@soomedia.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/orm": "2.*"
+    },
+    "autoload": {
+        "psr-4": {"SooMedia\\": "src/"}
+    }
+}

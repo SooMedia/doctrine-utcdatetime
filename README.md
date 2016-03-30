@@ -6,9 +6,9 @@ All the code in this library was found in [DoctrineExtensions' documentation](ht
 
 ## Using the UTCDateTimeType
 
-### Add the lib
+### Add the library
 
-Add the lib in your project with Composer:
+Add the library in your project with Composer:
 
 `$ composer require soomedia/doctrine-utcdatetime`
 

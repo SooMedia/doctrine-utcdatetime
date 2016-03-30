@@ -6,6 +6,14 @@ All the code in this library was found in [DoctrineExtensions' documentation](ht
 
 ## Using the UTCDateTimeType
 
+### Add the lib
+
+Add the lib in your project with Composer:
+
+`$ composer require soomedia/doctrine-utcdatetime`
+
+### Override the default datetime type
+
 Simply copied from DoctrineExtensions' documentation:
 
 We simply have to register and override the **datetime** type. **WARNING:** this will override the **datetime** type for all your entities and for all entities in external bundles or extensions, so if you have some entities that require the standard **datetime** type from Doctrine, you must modify the above type and use a different name (such as **utcdatetime**). Additionally, if you use DoctrineExtensions, you'll need to modify Timestampable so that it includes **utcdatetime** as a valid type.
